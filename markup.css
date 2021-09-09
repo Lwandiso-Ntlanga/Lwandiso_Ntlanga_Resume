@@ -1,0 +1,121 @@
+body{
+    background-color:black;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
+    color: white;
+}
+
+.banner{
+    background-color: orangered;
+}
+
+.menu{
+    position: relative;
+    display: inline-block;    
+}
+
+.menu:hover .dropdown-menu{
+    display:block;
+    padding:0px;
+    background-color: lightgrey;     
+}
+
+.menu:hover .menu-button{
+    background-color: orangered;
+    color:white;
+}
+
+.dropdown-menu{
+    background-color: lightgrey;
+    display:none;
+    position:absolute;
+    min-width: 150px;
+}
+
+.dropdown-menu a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    padding: 5px 10px;
+}
+
+.dropdown-menu a:hover{
+    color: black;
+    padding:5px;
+    display:block;
+    position:relative;
+    border-left: 5px solid orangered;
+}
+
+.menu-button{
+    background-color: lightgrey;
+    padding: 10px 55px;
+    font-size: 18px;
+    font-weight: bold;
+    border:none;
+}
+
+.menu-button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+#author{
+    padding:10px 0px 0px 3px;
+    margin:10px 0px 0px 0px;
+    text-align: center;
+}
+
+#position{
+    padding:0px;
+    margin:0px;
+    color:white;
+    text-align: center;
+}
+
+.headings{
+    background-color: lightgrey;
+    color:black;
+    padding: 5px;
+    margin: 5px;
+    border-left: 10px solid orangered;
+}
+  
+.position{
+    color:orangered;
+    font-weight:bold;
+    font-style: italic;
+}
+
+.work{
+    font-weight:bold;
+}
+
+.qualification{
+    color:orangered;
+    font-weight:bold;
+    font-style: italic;
+}
+
+.school{
+    font-weight:bold;
+}
+
+.project_name{
+    font-weight:bold;
+}
+
+.projects{
+    padding-bottom: 10px;
+}
+
+.my-container{
+    border:2px solid black;
+}
+
+.contacts{
+    list-style-type:none;
+}
